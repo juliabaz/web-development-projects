@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!–– Question 3: Forms ––>
+<html lang = "en">
+<head>
+  <title> Julia's Apartment Search Form</title>
+  <meta charset = "utf-8" />
+</head>
+<body>
+
+<h1>Julia's Apartment Search Form</h1> 
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Renter(s) Information:</legend>
+    How many people will live in the apartment?
+    <input id="number" type="number">
+    <br><br>
+    Smoker?
+    <input type="radio" name="smoker" value="yes"> Yes
+    <input type="radio" name="smoker" value="no"> No<br>
+    Any pets? <br>
+    <input type="checkbox" name="pet1" value="cat"> Cat(s) <br>
+    <input type="checkbox" name="pet2" value="dog"> Dog(s) <br>
+    <input type="checkbox" name="pet1" value="other"> Other Specify:<input type="text" name="firstname" value=""> <br>
+    <input type="checkbox" name="pet2" value="no pets"> No pets<br> <br>
+  </fieldset>
+</form> <br>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>What are you looking for?</legend>
+    Size of apartment:<br>
+    <input type="checkbox" name="size1" value="studio"> Studio
+    <input type="checkbox" name="size2" value="three"> 3 <small><sup>1</sup></small>/<sub><small>2</small></sub>
+    <input type="checkbox" name="size3" value="four"> 4 <small><sup>1</sup></small>/<sub><small>2</small></sub>
+    <input type="checkbox" name="size2" value="five"> 5 <small><sup>1</sup></small>/<sub><small>2</small></sub>
+    <input type="checkbox" name="size3" value="more than fine"> More than 5 <small><sup>1</sup></small>/<sub><small>2</small></sub> <br> <br>
+    Do you have preferred locations? <br>
+    <input type="checkbox" name="size1" value="Bike"> West Island
+    <input type="checkbox" name="size2" value="Car"> Downtown
+    <input type="checkbox" name="size3" value="Bike"> Lower Westmount
+    <input type="checkbox" name="size2" value="Car"> NDG
+    <input type="checkbox" name="size3" value="Bike"> East end of Island
+    <input type="checkbox" name="size3" value="Bike"> Don't care <br> <br>
+    Price Range/Month:<br>
+    <select name="Price Range">
+    <option value="1"selected>Under $500</option>
+    <option value="2"> $500-$1000 </option>
+    <option value="3"> $1000-$1500 </option>
+    <option value="4"> No price limit </option>
+  	</select> <br> <br>
+    Would be nice to have:<br>
+    <input type="checkbox" name="size1" value="Bike"> Fireplace
+    <input type="checkbox" name="size2" value="Car"> Laundromat in building
+    <input type="checkbox" name="size3" value="Bike"> Indoor Parking
+    <input type="checkbox" name="size2" value="Car"> Outdoor Parking
+    <input type="checkbox" name="size3" value="Bike"> Balcony
+    <br> <br>
+  </fieldset>
+</form> <br> <br>
+
+Let's see what we can find...<br> <br>
+<input type="submit" value="Search">
+<input type="reset" value="Start over">
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!–– Question 4: Presentation ––>
+<html lang = "en">
+<head>
+  <title> Julia's Apartment Search Form</title>
+  <meta charset = "utf-8" />
+    <style>
+        body {background-color: snow;}
+        .field_set1{border-color:indianred;background-color: mistyrose;}
+        .field_set2{border-color:maroon;background-color: pink;}
+    </style>
+</head>
+
+<body>
+
+<table>
+<tr>
+<td><a href="https://d27p8o2qkwv41j.cloudfront.net/wp-content/uploads/2016/03/dreamstime_m_52179744-1-e1456892610537.jpg"><img src="https://d27p8o2qkwv41j.cloudfront.net/wp-content/uploads/2016/03/dreamstime_m_52179744-1-e1456892610537.jpg"  width="150" height="100"> </a></td>
+<td><h1>Julia's Apartment Search Form</h1> </td>
+</tr>
+</table>
+
+<form action="/action_page.php">
+  <fieldset class="field_set1">
+    <legend class="legend_1"><h2 style="color:indianred;">Renter(s) Information</h2></legend>
+    <b>How many people will live in the apartment?</b>
+    <input id="number" type="number">
+    <br><br>
+    <b>Smoker?</b>
+    <input type="radio" name="smoker" value="yes"> Yes
+    <input type="radio" name="smoker" value="no"> No<br>
+   <b> Any pets?</b> <br>
+    <input type="checkbox" name="pet1" value="cat"> Cat(s) <br>
+    <input type="checkbox" name="pet2" value="dog"> Dog(s) <br>
+    <input type="checkbox" name="pet1" value="other"> Other <b>Specify</b>:<input type="text" name="firstname" value=""> <br>
+    <input type="checkbox" name="pet2" value="no pets"> No pets<br> <br>
+  </fieldset>
+</form> <br>
+
+<form action="/action_page.php">
+  <fieldset class="field_set2">
+    <legend class="legend_2"><h2 style="color:maroon;">What are you looking for?</h2></legend>
+   <b> Size of apartment:</b><br>
+    <input type="checkbox" name="size1" value="studio"> Studio
+    <input type="checkbox" name="size2" value="three"> 3 <small><sup>1</sup></small>/<sub><small>2</small></sub>
+    <input type="checkbox" name="size3" value="four"> 4 <small><sup>1</sup></small>/<sub><small>2</small></sub>
+    <input type="checkbox" name="size2" value="five"> 5 <small><sup>1</sup></small>/<sub><small>2</small></sub>
+    <input type="checkbox" name="size3" value="more than fine"> More than 5 <small><sup>1</sup></small>/<sub><small>2</small></sub> <br> <br>
+    <b>Do you have preferred locations? </b><br>
+    <input type="checkbox" name="size1" value="Bike"> West Island
+    <input type="checkbox" name="size2" value="Car"> Downtown
+    <input type="checkbox" name="size3" value="Bike"> Lower Westmount
+    <input type="checkbox" name="size2" value="Car"> NDG
+    <input type="checkbox" name="size3" value="Bike"> East end of Island
+    <input type="checkbox" name="size3" value="Bike"> Don't care <br> <br>
+    <b>Price Range/Month:</b><br>
+    <select name="Price Range">
+    <option value="1"selected>Under $500</option>
+    <option value="2"> $500-$1000 </option>
+    <option value="3"> $1000-$1500 </option>
+    <option value="4"> No price limit </option>
+    </select> <br> <br>
+    <b>Would be nice to have:</b><br>
+    <input type="checkbox" name="size1" value="Bike"> Fireplace
+    <input type="checkbox" name="size2" value="Car"> Laundromat in building
+    <input type="checkbox" name="size3" value="Bike"> Indoor Parking
+    <input type="checkbox" name="size2" value="Car"> Outdoor Parking
+    <input type="checkbox" name="size3" value="Bike"> Balcony
+    <br> <br>
+  </fieldset>
+</form> <br> <br>
+
+Let's see what we can find...<br> <br>
+<input type="submit" value="Search">
+<input type="reset" value="Start over">
+
+</body>
+</html>

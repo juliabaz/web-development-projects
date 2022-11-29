@@ -1,0 +1,78 @@
+body {
+    background-image: url("https://i.pinimg.com/236x/0e/2f/58/0e2f58a092859777c909cdda07b37191.jpg");
+}
+
+div {
+    background-color: palevioletred;
+    width: 300px;
+    border: 15px solid oldlace;
+    padding: 40px;
+    margin: 25px;
+}
+
+p1 {
+    color: oldlace;
+}
+
+table {
+    border: 15px dotted darkgoldenrod;
+    margin: 25px;
+}
+
+ul.a {
+    list-style-type: circle;
+    color: olive;
+}
+ 
+ul.b {
+    list-style-type: square;
+    color: green;
+}
+
+ul.c {
+  list-style-image: url("https://www.fg-a.com/bullets/1-star-2-w.gif");
+}
+
+ul.d {
+  list-style-image: url("https://www.fg-a.com/bullets/1-star-w.gif");
+}
+
+ol.a {
+    list-style-type: upper-roman;
+    
+}
+
+ol.b {
+    list-style-type: upper-armenian;
+    
+}
+th.a {
+    background-color: thistle;
+    color: sienna;
+    padding: 20px;
+}
+
+td.a {
+    background-color: ivory;
+    border: 5px solid darksalmon;
+    padding: 20px;
+    
+}
+
+td.b {
+    background-color: honeydew;
+    border: 5px solid olive;
+    padding: 20px;
+}
+
+td.c {
+    background-color: lavender;
+    border: 5px solid salmon;
+    padding: 20px;
+}
+
+td.d {
+    background-color: lightblue;
+    border: 5px solid green;
+    padding: 20px;
+}
